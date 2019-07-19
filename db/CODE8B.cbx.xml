@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="CODE8B">
+		<CBX_INST_ENTRY INSTANCE_NAME="|CODE8B|lpm_mult:Mult0" CBX_FILE_NAME="mult_j8t.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

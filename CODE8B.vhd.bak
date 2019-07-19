@@ -1,0 +1,17 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE 	work.corki.all;
+
+ENTITY CODE8B IS
+	PORT (a, b: IN UNSIGNED 0 TO 3;
+			c: OUT UNSIGNED 0 TO 7;
+	);
+END CODE8B;
+
+ARCHITECTURE codigo OF CODE8B IS
+BEGIN
+	PROCESS (a, b)
+	BEGIN
+		c <= mult(a,b);
+	END PROCESS;
+END;
